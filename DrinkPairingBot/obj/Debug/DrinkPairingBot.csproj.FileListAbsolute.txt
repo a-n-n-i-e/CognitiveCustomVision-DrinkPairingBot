@@ -1,0 +1,49 @@
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Bot Application.dll.config
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Bot Application.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Bot Application.pdb
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Autofac.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Chronic.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Bot.Builder.Autofac.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Bot.Builder.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Bot.Connector.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Newtonsoft.Json.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Net.Http.Formatting.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Web.Http.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Web.Http.WebHost.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Autofac.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Bot.Builder.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Bot.Builder.Autofac.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Bot.Connector.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Newtonsoft.Json.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Net.Http.Formatting.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Web.Http.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Web.Http.WebHost.xml
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\obj\Debug\DrinkPairingBot.csprojResolveAssemblyReference.cache
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\obj\Debug\Bot Application.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\obj\Debug\Bot Application.pdb
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Cognitive.CustomVision.Prediction.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.IO.FileSystem.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.IO.FileSystem.Primitives.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Net.Http.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Security.Cryptography.Algorithms.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Security.Cryptography.Encoding.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Security.Cryptography.Primitives.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\System.Security.Cryptography.X509Certificates.dll
+c:\users\ayomori\documents\visual studio 2017\Projects\DrinkPairingBot\DrinkPairingBot\bin\Microsoft.Cognitive.CustomVision.Prediction.pdb
