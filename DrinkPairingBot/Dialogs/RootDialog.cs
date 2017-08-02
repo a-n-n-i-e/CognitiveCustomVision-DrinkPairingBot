@@ -32,9 +32,9 @@ namespace DrinkPairingBot.Dialogs
             string msg = "";    // response message from bot | 返答メッセージ
 
             // Prep for Custom Vision API | Custom Vision API を使う準備
-            var cvCred = new PredictionEndpointCredentials("9c631fd082474bffba4b981ff91ab7c0");
+            var cvCred = new PredictionEndpointCredentials("YOUR_PREDICTION_KEY");
             var cvEp = new PredictionEndpoint(cvCred);
-            var cvGuid = new Guid("8a9b8258-7161-42c9-8e93-a3faec5345f3");
+            var cvGuid = new Guid("YOUR_PROJECT_ID");
 
             if (activity.Attachments?.Count != 0)
             {
@@ -86,21 +86,27 @@ namespace DrinkPairingBot.Dialogs
                 {
                     case "curry":
                         msg = "カレーおいしそう！甘いチャイでホッとしよう☕";
+                        //msg = "Have sweet chai after spicy curry!";
                         break;
                     case "gyoza":
                         msg = "やっぱ餃子にはビールだね🍺";
+                        //msg = "Beer should be best much to Gyoza!";
                         break;
                     case "pizza":
                         msg = "ピザには刺激的な炭酸飲料★はどうかな？";
+                        //msg = "What about sparkling soda with pizza?";
                         break;
                     case "meat":
                         msg = "肉、にく、ニク♪ 赤ワインを合わせてどうぞ🍷";
+                        //msg = "Red wine makes you eat more meat!";
                         break;
                     case "ramen":
                         msg = "やめられないよねー。ラーメンには緑茶でスッキリ☆";
+                        //msg = "Have green tea after Ramen!";
                         break;
                     case "sushi":
                         msg = "今日はちょっとリッチにお寿司？合わせるなら日本酒かな🍶";
+                        //msg = "Sushi! Have you ever tried Japanese Sake?";
                         break;
                 }
             }
