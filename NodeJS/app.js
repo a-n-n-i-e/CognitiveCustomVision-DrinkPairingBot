@@ -1,6 +1,6 @@
 ﻿var restify = require('restify');
 var builder = require('botbuilder');
-
+// モジュール追加
 require('dotenv').config();
 var request = require('request');
 
@@ -18,14 +18,16 @@ server.post('/api/messages', connector.listen());
 
 var bot = new builder.UniversalBot(connector, function (session) {
 
-    var msg = "こんにちは！ドリンクおすすめ Botです。食べ物の写真を送ってね♪";  // 返答メッセージ
+    // デフォルトのメッセージをセット
+    var msg = "こんにちは！ドリンクおすすめ Botです。食べ物の写真を送ってね♪";
 
-    // メディア(画像)が添付されているか
+    // 画像が送られてきたか確認
     if (session.message.attachments.length > 0) {
+        // 変数定義
+        var tag = "";      // 食べ物カテゴリータグ
+        var food = false;  // "food" タグの有無
 
-        var tag = ""; // custom vision で定義したカテゴリータグ
-        var food = false ; // Custom Vision で定義した食べ物判定タグ(food)
-
+        // Custom Vision を使う準備
         var customVisionApiRequestOptions = {
             uri: process.env.CUSTOM_VISION_API_URI,
             headers: {
@@ -35,13 +37,15 @@ var bot = new builder.UniversalBot(connector, function (session) {
             json: {
                 "Url": session.message.attachments[0].contentUrl
             }
-        }
+        };
 
-        // Custom Vision API へのPOSTリクエスト
+        // Custom Vision を呼び出してタグを取得
         request.post(customVisionApiRequestOptions, function (error, response, body) {
+
+            // 結果取得OKの場合
             if (!error && response.statusCode == 200) {
 
-                // Probability (≒信頼度) の高いものからリストされるため、0 or 1番目を取得
+                // food タグ および カテゴリーを取得
                 if (!response.body.Predictions[0].Tag == "food") {
                     if (response.body.Predictions[0].Probability > 0.8) {
                         tag = response.body.Predictions[0].Tag;
@@ -55,6 +59,10 @@ var bot = new builder.UniversalBot(connector, function (session) {
                     }
                 }
 
+                // 取得したタグに対応してメッセージをセット
+                //if (!tag == "") {
+                //    msg = "この写真は " + tag + " だね♪";
+                //}
                 switch (tag) {
                     case "curry":
                         msg = "カレーおいしそう！甘いチャイでホッとしよう☕";
@@ -80,14 +88,20 @@ var bot = new builder.UniversalBot(connector, function (session) {
                     msg = "この食べ物は分からないです．．．日本の冬は番茶だね！";
                 }
 
+                // メッセージ送信
                 session.send(msg);
+
+                // 結果取得NGの場合
 
             } else {
                 console.log("error: " + error);
                 session.send("画像を判定できませんでした。もう一度食べ物の写真を送ってね♪");
             }
-        })
+        });
+
+    // 画像がない場合
     } else {
         session.send(msg);
     }
+
 });
