@@ -23,7 +23,7 @@ Bot Framework 編: [C#](http://qiita.com/annie/items/bd232f67e06c83586ca5) | [No
 Windows 10, Visual Studio 2017 Enterprise で作成されています。
 - C# 編: Microsoft Bot Framework v3.0 テンプレート を使用しています。
 環境構成方法は [Bot Framework を使うための開発環境](http://qiita.com/annie/items/edc26c0ee9603e84a2e4#bot-framework-%E3%82%92%E4%BD%BF%E3%81%86%E3%81%9F%E3%82%81%E3%81%AE%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83) をご覧ください。 
-- Node.js 編: botbuilder, restify, dotenv, request を試用しています。
+- Node.js 編: botbuilder, restify, dotenv, request を使用しています。
 
 Developed on Windows 10, Visual Studio 2017 Enterprise.
 - C# ver: Microsoft Bot Framework v3.0 Template used
