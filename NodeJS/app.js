@@ -46,7 +46,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
             if (!error && response.statusCode == 200) {
 
                 // food タグ および カテゴリーを取得
-                if (!response.body.Predictions[0].Tag == "food") {
+                if (response.body.Predictions[0].Tag != "food") {
                     if (response.body.Predictions[0].Probability > 0.8) {
                         tag = response.body.Predictions[0].Tag;
                     }
@@ -60,7 +60,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
                 }
 
                 // 取得したタグに対応してメッセージをセット
-                //if (!tag == "") {
+                //if (tag != "") {
                 //    msg = "この写真は " + tag + " だね♪";
                 //}
                 switch (tag) {
