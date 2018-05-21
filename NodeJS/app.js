@@ -46,16 +46,16 @@ var bot = new builder.UniversalBot(connector, function (session) {
             if (!error && response.statusCode == 200) {
 
                 // food タグ および カテゴリーを取得
-                if (response.body.Predictions[0].Tag != "food") {
-                    if (response.body.Predictions[0].Probability > 0.8) {
-                        tag = response.body.Predictions[0].Tag;
+                if (response.body.predictions[0].tagName != "food") {
+                    if (response.body.predictions[0].probability > 0.8) {
+                        tag = response.body.predictions[0].tagName;
                     }
                 } else {
-                    if (response.body.Predictions[0].Probability > 0.8) {
+                    if (response.body.predictions[0].probability > 0.8) {
                         food = true;
                     }
-                    if (response.body.Predictions[1].Probability > 0.8) {
-                        tag = response.body.Predictions[1].Tag;
+                    if (response.body.predictions[1].probability > 0.8) {
+                        tag = response.body.predictions[1].tagName;
                     }
                 }
 
